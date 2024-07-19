@@ -1,3 +1,4 @@
+import React from "react";
 import { useForm } from "react-hook-form"
 
 
@@ -13,7 +14,7 @@ alert(JSON.stringify(values))
                 <dl>
                     <dt>Name</dt>
                     <dd><input type="text" name="Name"
-                        {...register('Name', { required: true, minLength: 4, pattern })} /></dd>
+                        {...register('Name', { required: true, minLength: 4 })} /></dd>
                     <dd className="text-danger">
 
                         {
