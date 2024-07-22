@@ -8,6 +8,7 @@ import { Login } from './components/login/login';
 import { IntervalDemo } from './components/debounce/intervalDemo';
 import { IntervalDemo2 } from './components/debounce/IntervalDemo2';
 import { ProgressDemo } from './components/debounce/progressDemo';
+import { ReactGrid } from './Component-library/react-navbar/react-grid/react-grid';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

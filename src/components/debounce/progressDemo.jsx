@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { ReactNavBar } from "../../Component-library/react-navbar/react-navbar";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { ReactGrid } from "../../Component-library/react-navbar/react-grid/react-grid";
 
 export function ProgressDemo(){
 
@@ -22,6 +23,14 @@ export function ProgressDemo(){
       <div>
 <header>
     <ReactNavBar BrandName="Shopper" MenuItems={["Home","Shop","Pages","Contacts"]}></ReactNavBar>
+    <ReactNavBar BrandName="Tutorilas" MenuItems={["Java","Python",".Net","SQL"]}></ReactNavBar>
+</header>
+
+<header>
+    <h2>Grid Demo</h2>
+    <ReactGrid caption="Product Details -Updated Jan 2024">
+
+    </ReactGrid>
 </header>
 
           <div className="d-flex container-fluid justify-content-center align-items-center" style={{height:"100vh"}}>

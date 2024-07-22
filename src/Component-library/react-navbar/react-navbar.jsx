@@ -1,5 +1,5 @@
 import React from "react"
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export function ReactNavBar(props){
     return (
